@@ -25,10 +25,6 @@ public class StopService {
         this.postRepository = postRepository;
     }
 
-    public StopService(StopRepository stopRepository) {
-        this.stopRepository = stopRepository;
-    }
-
     public double calculateDistance(double lat1, double lon1, double lat2, double lon2){
         final int R = 6371;
 
